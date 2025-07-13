@@ -1,15 +1,11 @@
-# Design a simple calculator with basic arithmetic operations.
-# Accepts input string from user and an operation choice.
-# Performs the calculation and displays the result.
-
 class Calculator:
     def __init__(self):
-        # Define supported operators and their corresponding functions
+       
         self.operations = {
             '+': self._add,
             '-': self._subtract,
             '*': self._multiply,
-            'x': self._multiply,  # Alternate for multiplication
+            'x': self._multiply,  
             '/': self._divide
         }
 
